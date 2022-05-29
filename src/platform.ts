@@ -159,7 +159,7 @@ export class TuyaCameraPlatform implements DynamicPlatformPlugin {
   //Gets the list of devices under the associated user
   async getDevices() {
     this.countryCode = this.config.countryCode!;
-    this.endpoint = (this.config.countryCode) ? new CountryUtil().getEndPointWithCountryCode(this.config.countryCode) : 'https://openapi.tuyaus.com';
+    this.endpoint = (this.config.countryCode) ? new CountryUtil().getEndPointWithCountryCode(this.config.countryCode) : 'https://openapi.tuyaeu.com';
     this.access_id = this.config.accessId;
     this.access_key = this.config.accessKey;
     this.lang = this.config.lang;

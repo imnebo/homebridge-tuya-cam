@@ -182,7 +182,6 @@ const TUYA_COUNTRIES = [
   { 'country': 'Jamaica', 'countryCode': '1876', 'endPoint': EUROPE },
   { 'country': 'Japan', 'countryCode': '81', 'endPoint': AMERICA },
   { 'country': 'Jordan', 'countryCode': '962', 'endPoint': EUROPE },
-  { 'country': 'Russia', 'countryCode': '7', 'endPoint': EUROPE },
   { 'country': 'Kenya', 'countryCode': '254', 'endPoint': EUROPE },
   { 'country': 'Kiribati', 'countryCode': '686', 'endPoint': AMERICA },
   { 'country': 'Kuwait', 'countryCode': '965', 'endPoint': EUROPE },
@@ -318,6 +317,6 @@ export class CountryUtil {
     const item = TUYA_COUNTRIES.find(item => {
       return item.countryCode === code;
     });
-    return item ? item.endPoint : AMERICA;
+    return item ? item.endPoint : EUROPE;
   }
 }
