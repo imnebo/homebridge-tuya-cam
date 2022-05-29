@@ -1,0 +1,140 @@
+{
+  "pluginAlias": "TuyaCamera",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "<p align='center'><img width='250px' src='https://raw.githubusercontent.com/imnebo/homebridge-tuya-cam/latest/tuya/Homebridge_x_Tuya.svg'></p>\n\nThe **Homebridge Tuya Camera** plugin allows you to get the  your rtsp or hlm stream url for your [Tuya Camera(s)](https://www.tuya.com). Forked from  [homebridge-tuya-camera](https://github.com/donavanbecker/homebridge-tuya-camera).",
+  "footerDisplay": "Your Tuya account has been linked. Please raise any issues on our [project page](https://github.com/imnebo/homebridge-tuya-cam/issues).\n\nIf you would like to have other features, fill out [Feature Request Form](https://github.com/imnebo/homebridge-tuya-cam/issues/new?assignees=&labels=&template=feature_request.md).",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name",
+        "default": "TuyaCamera",
+        "required": true
+      },
+      "username": {
+        "title": "Username",
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true
+      },
+      "accessId": {
+        "title": "Access ID",
+        "type": "string",
+        "required": true
+      },
+      "accessKey": {
+        "title": "Access Key",
+        "type": "string",
+        "required": true
+      },
+      "lang": {
+        "title": "Language Code",
+        "type": "string",
+        "default": "en",
+        "description": "Your two letter language code",
+        "required": true
+      },
+      "projectType": {
+        "title": "Project Type",
+        "type": "string",
+        "default": "form",
+        "oneOf": [{
+            "title": "PaaS",
+            "enum": ["2"]
+          }
+        ],
+        "required": true
+      },
+      "appSchema": {
+        "title": "PaaS Platform",
+        "type": "string",
+        "default": "form",
+        "oneOf": [{
+            "title": "Tuya Smart",
+            "enum": ["tuyaSmart"]
+          }
+        ],
+        "required": true
+      },
+      "countryCode": {
+        "title": "Country Code",
+        "type": "number",
+        "default": "",
+        "description": "Your two integer country code",
+        "required": true
+      },
+      "refreshRate": {
+        "title": "Refresh Rate",
+        "type": "number",
+        "minimum": 1800,
+        "placeholder": 1800,
+        "description": "Indicates the number of seconds between polls of the Tuya service."
+      },
+      "logging": {
+        "title": "Logging Setting",
+        "type": "string",
+        "oneOf": [
+          {
+            "title": "Standard Logging",
+            "enum": [
+              "standard"
+            ]
+          },
+          {
+            "title": "No Logging",
+            "enum": [
+              "none"
+            ]
+          },
+          {
+            "title": "Debug Logging",
+            "enum": [
+              "debug"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "layout": [
+    {
+      "type": "fieldset",
+      "title": "Tuya Account Info",
+      "expandable": true,
+      "expanded": false,
+      "items": [
+        "username",
+        "password",
+        "accessId",
+        "accessKey",
+        "lang",
+        "projectType",
+        "appSchema",
+        "countryCode"
+      ]
+    },
+    {
+      "type": "fieldset",
+      "title": "Advanced Settings",
+      "expandable": true,
+      "expanded": false,
+      "items": [
+        {
+          "type": "help",
+          "helpvalue": "<h5>Refresh Rate</h5><em class='primary-text'>Refresh Rate indicates the number of seconds between polls of the Tuya service.</em>"
+        },
+        {
+          "key": "refreshRate",
+          "notitle": true
+        },
+        "logging"
+      ]
+    }
+  ]
+}
