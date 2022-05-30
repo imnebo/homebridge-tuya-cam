@@ -2,8 +2,8 @@
   "pluginAlias": "TuyaCamera",
   "pluginType": "platform",
   "singular": true,
-  "headerDisplay": "<p align='center'><img width='250px' src='https://raw.githubusercontent.com/imnebo/homebridge-tuya-cam/latest/tuya/Homebridge_x_Tuya.svg'></p>\n\nThe **Homebridge Tuya Camera** plugin allows you to get the  your rtsp or hlm stream url for your [Tuya Camera(s)](https://www.tuya.com). Forked from  [homebridge-tuya-camera](https://github.com/donavanbecker/homebridge-tuya-camera).",
-  "footerDisplay": "Your Tuya account has been linked. Please raise any issues on our [project page](https://github.com/imnebo/homebridge-tuya-cam/issues).\n\nIf you would like to have other features, fill out [Feature Request Form](https://github.com/imnebo/homebridge-tuya-cam/issues/new?assignees=&labels=&template=feature_request.md).",
+  "headerDisplay": "<p align='center'><img width='250px' src='https://svgshare.com/i/hsQ.svg'></p>\n\nThe **Homebridge Tuya Camera** plugin allows you to get the  your rtsp or hlm stream url for your [Tuya Camera(s)](https://www.tuya.com) so that it can be used in [homebridge-camera-ffmpeg](https://github.com/Sunoo/homebridge-camera-ffmpeg).",
+  "footerDisplay": "Your Tuya account has been linked.\n\nYou can now use your camera in homebridge-camera-ffmpeg.",
   "schema": {
     "type": "object",
     "properties": {

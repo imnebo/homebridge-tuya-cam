@@ -1,5 +1,7 @@
 <span align="center">
 
+<img width="250px" src="https://svgshare.com/i/hsQ.svg">
+
 # Homebridge Tuya Cam
 
 <a href="https://www.npmjs.com/package/homebridge-tuya-cam"><img title="npm version" src="https://badgen.net/npm/v/homebridge-tuya-cam?icon=npm&label" ></a>
