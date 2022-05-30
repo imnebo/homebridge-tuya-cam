@@ -6,6 +6,9 @@
 
 <a href="https://www.npmjs.com/package/homebridge-tuya-cam"><img title="npm version" src="https://badgen.net/npm/v/homebridge-tuya-cam?icon=npm&label" ></a> <a href="https://www.npmjs.com/package/homebridge-tuya-cam"><img title="npm downloads" src="https://badgen.net/npm/dt/homebridge-tuya-cam?label=downloads" ></a>
 
+</span>
+<span align="left">
+
 <p>The Homebridge <a href="https://www.tuya.com">Tuya Camera</a> 
 plugin allows you to get the  your rtsp or hlm stream url for your  <a href="https://www.tuya.com" target="_blank">Tuya Camera(s)</a> so that it can be used in <a href="https://github.com/Sunoo/homebridge-camera-ffmpeg" target="_blank">homebridge-camera-ffmpeg</a>. <br>* plugin forked from <a href="https://github.com/donavanbecker/homebridge-tuya-camera" target="_blank">homebridge-tuya-camera</a>. 
 </p>
