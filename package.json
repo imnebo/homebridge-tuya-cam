@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge Tuya Camera",
   "name": "homebridge-tuya-cam",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "The [Homebridge](https://homebridge.io) Tuya Camera plugin allows you to get the rtsp or hls stream for your Tuya Cameras.",
   "author": "imnebo",
   "license": "Apache-2.0",
