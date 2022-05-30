@@ -10,8 +10,8 @@
 <span align="left">
 
 <p>The Homebridge <a href="https://www.tuya.com">Tuya Camera</a> 
-plugin allows you to get the  your rtsp or hlm stream url for your  <a href="https://www.tuya.com" target="_blank">Tuya Camera(s)</a> so that it can be used in <a href="https://github.com/Sunoo/homebridge-camera-ffmpeg" target="_blank">homebridge-camera-ffmpeg</a>. <br>* plugin forked from <a href="https://github.com/donavanbecker/homebridge-tuya-camera" target="_blank">homebridge-tuya-camera</a>. 
-</p>
+plugin allows you to get the  your rtsp or hlm stream url for your  <a href="https://www.tuya.com" target="_blank">Tuya Camera(s)</a> so that it can be used in <a href="https://github.com/Sunoo/homebridge-camera-ffmpeg" target="_blank">homebridge-camera-ffmpeg</a></p>
+<p><sub>plugin forked from <a href="https://github.com/donavanbecker/homebridge-tuya-camera" target="_blank">homebridge-tuya-camera</a></sub></p>
 
 </span>
 
