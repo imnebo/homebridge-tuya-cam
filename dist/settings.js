@@ -8,7 +8,7 @@ exports.PLATFORM_NAME = 'TuyaCamera';
 /**
  * This must match the name of your plugin as defined the package.json
  */
-exports.PLUGIN_NAME = 'homebridge-tuya-cam';
+exports.PLUGIN_NAME = 'homebridge-tuya-camera';
 /**
  * this is the base URL
  */

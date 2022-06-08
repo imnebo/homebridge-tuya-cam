@@ -75,9 +75,11 @@ Temporary Items
 
 # Ignore code-workspaces
 *.code-workspace
+node_modules/*
+dist/*
+
 
 # End of https://www.toptal.com/developers/gitignore/api/git,macos,visualstudiocode
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-node_modules
